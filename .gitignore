@@ -1,0 +1,30 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+env.bak/
+
+# OSO / Mac
+.DS_Store
+
+# Git
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+# Documentation Hub
+
+- [ONBOARDING.md](ONBOARDING.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md)
