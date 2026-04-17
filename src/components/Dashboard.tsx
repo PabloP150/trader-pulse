@@ -43,11 +43,12 @@ export default function Dashboard() {
         {/* Gamification Widget */}
         {gamification && (
           <div className="bg-[#18181b] border border-border/50 px-4 py-2 rounded-xl flex items-center gap-3">
-            <div className="flex flex-col items-end">
-               <span className="text-sm font-semibold text-foreground/90">{gamification.level}</span>
-               <span className="text-xs text-muted-foreground">{gamification.points} Puntos</span>
-            </div>
-            <Trophy className="w-5 h-5 text-yellow-500" />
+             <div className="flex flex-col items-end">
+                <span className="text-sm font-semibold text-foreground/90">{gamification.level}</span>
+                <span className="text-xs text-muted-foreground">{gamification.points} Puntos</span>
+                <progress className="w-16 h-1 mt-1 rounded" value={gamification.points % 100} max="100" />
+             </div>
+             <Trophy className="w-5 h-5 text-yellow-500" />
           </div>
         )}
       </header>
